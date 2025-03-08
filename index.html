@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2b2d31">
+  <meta property="og:image" content="images/1089035883904237708.webp">
+  <link rel="shortcut icon" href="images/1089035883904237708.webp" type="image/gif">
+  <meta property="og:title" content="Ops é o Hesfkz">
+  <meta property="og:description" content="Lust Squad & Fkz7">
+  <link rel="stylesheet" href="watch.html">
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/cursor.js"></script>
+  <script>
+    function audioPlay() {
+      var audio = document.getElementById("audio");
+      audio.volume = 1.0;
+      audio.currentTime = 0;
+      audio.play();
+    }
+  </script>
+  <title>mimimi</title>
+  <style>
+    .at-column {
+      margin-right: 5px; 
+    }
+
+    
+    .at-column:last-child {
+      margin-right: 0;
+    }
+
+    
+    .at-grid {
+      display: flex;
+      justify-content: center;
+      gap: 5px; 
+    }
+
+    
+    .description-small {
+      font-size: 0.85em; 
+    }
+  </style>
+</head>
+
+<body style="background-size: cover; background-position: center center; background-image: url(__.html); background-color: rgb(0, 0, 1);" min-height: 50vh; margin-top: 50px; background-color: rgb(0, 0, 1);">
+  <audio loop preload="auto" id="audio">
+    <source src="media/fkz7.mp4" type="audio/mpeg">
+  </audio>
+
+  <input type="checkbox" autocomplete="off" id="overlay-toggle">
+  <div class="overlay fullscreen">
+    <label for="overlay-toggle" onclick="audioPlay();">
+      <span class="overlayno-hover hover" style="font-family: monospace; font-size: 0.6em;">[Click Anywhere]</span>
+      <span class="overlayhover hover" style="font-family: monospace; font-size: 0.6em;">[Click Anywhere]</span>
+    </label>
+  </div>
+
+  <div class="at-server__avatar">
+    <img src="images/1089035883904237708.webp">
+  </div>
+
+  <p style="background-image: url('images/sparkle.gif'); background-repeat: no-repeat; background-position: center; background-size: auto; color: #ffffff; text-align: center; position: relative; margin-bottom: 20px; display: flex; justify-content: center; align-items: center;">
+    <span style="margin-right: 5px; vertical-align: top; line-height: 0.3;">❤</span>
+    <span id="visit-count" style="text-shadow: 0 0 5px #fff4b5; vertical-align: top; line-height: 0.5;">Os Caras Do Momento</span>
+  </p>
+
+  <script>
+    const servidor = () => window.open('https://discord/', '_blank');
+    document.body.style.backgroundColor = `#000001`;
+  </script>
+
+  <div class="at-grid" data-column="3">
+    <div class="container">
+      <div class="at-section">
+
+        <div class="at-grid" data-column="3">
+          <div class="at-column">
+            <a href="." target="_blank">
+              <div class="at-user">
+                <div class="at-user__avatar">
+                  <img src="images/107af502a4d6ff6485466908475eb289.png">
+                </div>
+                <div class="at-user__name">Hesfkz</div>
+                <div class="description">Fkz7</div>
+                <div class="description description-small">Um homem que se decepcionou, mas estáㅤㅤvoltando ao seu auge.</div>
+                <div class="badges">
+                  <img src="images/coroa.png" width="21" height="23">
+                  <img src="fonts/nitro.svg" width="21" height="23">
+                  <img src="fonts/boost1month.svg" width="21" height="23">
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="at-column">
+            <a href="." target="_blank">
+              <div class="at-user">
+                <div class="at-user__avatar">
+                  <img src="images/a998c4dc5175988f7ccade3c268d008c.png">
+                </div>
+                <div class="at-user__name">Fznd</div>
+                <div class="description">Lust Squad</div>
+                <div class="description description-small">O mundo todo esta conectado, e eu tenho o ㅤpoder de desconectar os cabos.</div>
+                <div class="badges">
+                  <img src="fonts/nitro.svg" width="20" height="23">
+                  <img src="fonts/boost1month.svg" width="20" height="23">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var rev = "fwd";
+    function titlebar(val){
+      var msg  = "Lust Squad & Fkz7";
+      var res = " ";
+      var speed = 100;
+      var pos = val;
+      msg = ""+msg+"";
+      var le = msg.length;
+      if(rev == "fwd"){
+        if(pos < le){
+          pos = pos+1;
+          scroll = msg.substr(0,pos);
+          document.title = scroll;
+          timer = window.setTimeout("titlebar("+pos+")",speed);
+        } else {
+          rev = "bwd";
+          timer = window.setTimeout("titlebar("+pos+")",speed);
+        }
+      } else {
+        if(pos > 0) {
+          pos = pos-1;
+          var ale = le-pos;
+          scrol = msg.substr(ale,le);
+          document.title = scrol;
+          timer = window.setTimeout("titlebar("+pos+")",speed);
+        } else {
+          rev = "fwd";
+          timer = window.setTimeout("titlebar("+pos+")",speed);
+        }
+      }
+    }
+    titlebar(0);
+  </script>
+<div id="button" style="cursor:pointer" onclick="servidor()">Lust Squad - Fkz7</div>
+</html>
